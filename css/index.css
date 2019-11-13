@@ -2,6 +2,7 @@
 
 body{
     background-color: black;
+    
 }
 
 h1{
@@ -9,6 +10,89 @@ h1{
     color:white;
     font-size: 500%;
     margin-top: -5%;
+    font-family: 'Anton', sans-serif;
+	perspective: 1000px; 
+	perspective-origin: 200px 40px;
+}
+
+
+h1:hover{
+   color:#f3e888
+}
+#proimagenes{
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30%;
+    background-color: #000000;
+    border: 2px;
+    color:#ffffff;
+}
+#proimagenes:hover{
+    background: linear-gradient(180deg, #78797a 0%, 50%, #020202 100%);
+    background-position: 0 -60px;
+    transition: all .3s;
+}
+#cine_colombiano{
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30%;
+    background-color: #000000;
+    border: 2px;
+    color:#ffffff;
+}
+#cine_colombiano:hover{
+    background: linear-gradient(180deg, #78797a 0%, 50%, #020202 100%);
+    background-position: 0 -60px;
+    transition: all .3s;
+}
+#financiación{
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30%;
+    background-color: #000000;
+    border: 2px;
+    color:#ffffff;
+}
+#financiación:hover{
+    background: linear-gradient(180deg, #78797a 0%, 50%, #020202 100%);
+    background-position: 0 -60px;
+    transition: all .3s;
+}
+#eventos{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30%;
+    background-color: #000000;
+    border: 2px;
+    color:#ffffff;
+}
+#eventos:hover{
+    background: linear-gradient(180deg, #78797a 0%, 50%, #020202 100%);
+    background-position: 0 -60px;
+    transition: all .3s;
 }
 .nav img{
     width: 200px;
@@ -27,5 +111,26 @@ margin-top: 2%;
 width: 920px;
 height: 500px;
 padding: 10%;
+}
+.uno p{
+    
+    font-size: 20px; 
+   margin-left:90px;
+   margin-top:-90px;
+   margin-right:90px;
+   margin-bottom: 20px; 
+   
+}
 
+.dos img{
+    margin-top:3%;
+}
+#monos{
+    width: 100%;
+    height: auto;
+}
+.dos h2{
+    margin-top: 3%;
+    font-size: 50px;
+    
 }
